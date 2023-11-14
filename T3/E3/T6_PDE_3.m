@@ -16,7 +16,7 @@ set(ax,'XTickMode','auto');
 set(ax,'YTickMode','auto');
 
 % Geometry description:
-pderect([0.004118616144975551 4.0019220208676556 0.028830313014826636 3.9827018121911033],'R1');
+pderect([0.0 4 0.0 4],'R1');
 set(findobj(get(pde_fig,'Children'),'Tag','PDEEval'),'String','R1')
 
 % Boundary conditions:
